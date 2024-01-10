@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #f4f4f4;
+}
+
+.btn-blue {
+  background-color: #0e6cff;
+  border: none;
+  border-radius: 20px;
+  color: #f4f4f4;
+  padding: 0.6rem;
+  margin: 0.4rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-orange {
+  background-color: #ff8700;
+  border: none;
+  border-radius: 20px;
+  color: #f4f4f4;
+  padding: 0.6rem;
+  margin: 0.4rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 20px;
+  color: #f4f4f4;
+  padding: 0.6rem;
+  margin: 0.4rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+nav {
+  background-color: rgb(239, 146, 7);
+  padding: 1.5rem;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.fadein {
+  animation: fadeIn 1s linear 0.5s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8e434;
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+}
+
+.title {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+}
+
+.col1 {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.col1 div, .col1 img {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+
+.col2 {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.col2 div, .col2 img {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+
+.col3 {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+}
+.col3 div, .col3 img {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+
+.col4 {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.col4 div, .col4 img {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  border: gray;
+  border-radius: 20px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=style.css.map */
